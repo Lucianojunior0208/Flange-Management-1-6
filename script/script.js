@@ -102,7 +102,7 @@ form.addEventListener('submit', (e) => {
         let y = margin;
 
         doc.setFontSize(16);
-        doc.text('Relatório - Flanje Meneger', margin, y);
+        doc.text('Relatório - Flange Management', margin, y);
         y += 12;
 
         doc.setFontSize(12);
