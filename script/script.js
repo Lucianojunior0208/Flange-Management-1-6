@@ -109,7 +109,7 @@ form.addEventListener('submit', (e) => {
         doc.text(`Matrícula: ${matricula.value}`, margin, y); y += 8;
         doc.text(`Obra: ${obra.value}`, margin, y); y += 8;
         doc.text(`Projeto: ${projeto.value}`, margin, y); y += 8;
-        doc.text(`Número da Linha: ${linha.value}`, margin, y); y += 8;
+        doc.text(`Número da pasta: ${linha.value}`, margin, y); y += 8;
         doc.text(`Número da Junta: ${junta.value}`, margin, y); y += 8;
         if (observacao.value.trim()) {
             // quebra simples em múltiplas linhas se necessário
